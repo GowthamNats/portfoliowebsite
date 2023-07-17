@@ -9,7 +9,7 @@ function Layout() {
   };
 
   return (
-    <nav className='top-0 backdrop-blur-sm bg-slate-100/80 flex flex-row justify-between items-center p-8 px-14 text-gray-800 fixed w-full'>
+    <nav className='top-0 backdrop-blur-sm bg-slate-100/80 flex flex-row justify-between items-center p-8 px-14 text-gray-800 fixed w-full z-50'>
         <div>
             <h1 className='text-2xl font-semibold text-blue-600'>Gowtham N</h1>
         </div>

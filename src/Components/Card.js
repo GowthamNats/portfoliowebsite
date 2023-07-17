@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function Card({tags, title, ttr, button, image, desc, link}) {
+function Card({tags, title, ttr, button, image, desc, link, tech}) {
 
   const [openModal, setOpenModal] = useState(false)
 
@@ -36,6 +36,7 @@ function Card({tags, title, ttr, button, image, desc, link}) {
 
                 <div className="relative p-10 flex-auto h-[400px] overflow-y-scroll text-justify">
                   <a href={link} className='text-lg md:text-2xl text-gray-600 hover:text-blue-600 hover:underline hover:underline-offset-8'>Visit the website <span className='font-semibold'>→</span></a>
+                  <p className='my-5 text-lg md:text-xl'>Tech Stack: {tech}</p>
                   <p className='my-5 tracking-wide'>
                     {desc}
                   </p>
