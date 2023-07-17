@@ -76,6 +76,15 @@ function Work() {
         "desc": "Warning: Unoptimized!! The Weather.io app is a comprehensive weather application that revolutionizes how you stay informed about atmospheric conditions. By simply inputting your desired location, WeatherMaster provides you with a wealth of weather-related information at your fingertips. This intuitive app offers a wide range of features, including accurate weather forecasts, historical weather data, real-time updates on current weather conditions, air pollution parameters, and advanced geocoding functionalities. Whether you're planning a trip, curious about past weather patterns, or concerned about air quality, WeatherMaster has you covered. With its sleek and user-friendly interface, the app presents detailed forecasts with temperature, precipitation, wind speed, and humidity indicators, empowering you to make informed decisions based on up-to-date information. Additionally, WeatherMaster's comprehensive historical weather database allows you to explore past weather trends, enabling you to better understand climate patterns and plan accordingly. The app also provides valuable insights into air pollution parameters, such as pollutant levels and air quality indices, helping you make conscious choices about outdoor activities and safeguarding your health. Furthermore, WeatherMaster leverages cutting-edge geocoding technology, allowing you to search for specific locations, view maps, and access geographical coordinates seamlessly. Whether you're an outdoor enthusiast, a frequent traveler, or someone who simply wants to stay ahead of the weather, WeatherMaster is your ultimate companion. With its wealth of features and emphasis on accuracy and usability, this app ensures that you're always prepared for any weather-related situation.",
         "link": "https://weather-tracker-tech.netlify.app",
         "tech": "ReactJS | WeatherAPI"
+    }, {
+        "tags": "AI",
+        "title": "SpamFind",
+        "ttr": "2 min exploration",
+        "button": "See Concept",
+        "image": "/Assets/9.JPG",
+        "desc": "The Spam Finder app is a cutting-edge application that utilizes advanced Natural Language Processing (NLP) techniques to effectively detect and prevent spam messages. By analyzing user input, such as emails, social media messages, or text messages, the app employs sophisticated algorithms including sentiment analysis, keyword analysis, and linguistic analysis to determine if a message is spam. With a constantly evolving database of known spam patterns, sender profiles, and machine learning models that detect emerging spam trends, the app provides users with accurate and up-to-date protection. Through its user-friendly interface and adaptive learning capabilities that improve accuracy over time based on user feedback, the Spam Finder app not only saves users time and effort but also safeguards against potential scams, phishing attempts, and malware threats, ensuring a clean and secure digital environment for users to communicate and interact.",
+        "link": "https://spamfind.streamlit.app",
+        "tech": "Sklearn | Python | Streamlit"
     }
 ]
 

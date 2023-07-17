@@ -6,6 +6,15 @@ import { Link } from 'react-router-dom'
 function Home() {
 
     const latestwork = [{
+        "tags": "AI",
+        "title": "SpamFind",
+        "ttr": "2 min exploration",
+        "button": "See Concept",
+        "image": "/Assets/9.JPG",
+        "desc": "The Spam Finder app is a cutting-edge application that utilizes advanced Natural Language Processing (NLP) techniques to effectively detect and prevent spam messages. By analyzing user input, such as emails, social media messages, or text messages, the app employs sophisticated algorithms including sentiment analysis, keyword analysis, and linguistic analysis to determine if a message is spam. With a constantly evolving database of known spam patterns, sender profiles, and machine learning models that detect emerging spam trends, the app provides users with accurate and up-to-date protection. Through its user-friendly interface and adaptive learning capabilities that improve accuracy over time based on user feedback, the Spam Finder app not only saves users time and effort but also safeguards against potential scams, phishing attempts, and malware threats, ensuring a clean and secure digital environment for users to communicate and interact.",
+        "link": "https://spamfind.streamlit.app",
+        "tech": "Sklearn | Python | Streamlit"
+    }, {
         "tags": "AI | Web Development",
         "title": "Personality Predictor",
         "ttr": "5 min exploration",
